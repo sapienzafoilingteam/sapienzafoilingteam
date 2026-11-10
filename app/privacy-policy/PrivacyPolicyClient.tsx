@@ -1,5 +1,6 @@
 'use client';
 
+import { Button } from '@sft/design-system';
 import { useLanguage } from '../context/LanguageContext';
 import { privacy } from '../translations/privacy';
 
@@ -56,6 +57,12 @@ const PrivacyPolicyClient = () => {
                     <section className="mb-8">
                         <h2 className="text-2xl font-semibold text-brand mb-4">{content.cookies.title}</h2>
                         <p>{content.cookies.content}</p>
+                        <Button
+                            variant="outline"
+                            onClick={() => window.dispatchEvent(new Event('open-cookie-preferences'))}
+                        >
+                            {content.cookies.preferences}
+                        </Button>
                     </section>
 
                     <section className="mb-8">
@@ -66,6 +73,9 @@ const PrivacyPolicyClient = () => {
                     <section className="mb-8">
                         <h2 className="text-2xl font-semibold text-brand mb-4">{content.analytics.title}</h2>
                         <p>{content.analytics.content}</p>
+                        <a href="https://umami.is/privacy" className="text-brand underline">
+                            Umami Privacy Policy
+                        </a>
                     </section>
                 </div>
             </div>

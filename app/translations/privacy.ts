@@ -1,7 +1,7 @@
 export const privacy = {
   it: {
     title: 'Privacy Policy',
-    lastUpdate: 'Ultimo aggiornamento: settembre 2025',
+    lastUpdate: 'Ultimo aggiornamento: novembre 2026',
     intro: 'La presente Privacy Policy descrive le modalità di gestione dei dati personali degli utenti che consultano il sito web del Sapienza Foiling Team.',
     controller: {
       title: 'Titolare del Trattamento',
@@ -23,7 +23,7 @@ export const privacy = {
       title: 'Finalità del Trattamento',
       list: [
         'Permettere la corretta navigazione e fruizione del sito web',
-        'Analisi statistiche anonime sull\'uso del sito',
+        'Misurazione statistica dell’uso del sito, previo consenso',
         'Rispondere alle richieste inviate attraverso il form di contatto',
         'Gestione delle preferenze relative ai cookie'
       ]
@@ -41,7 +41,8 @@ export const privacy = {
     },
     cookies: {
       title: 'Cookie Policy',
-      content: 'Il nostro sito utilizza cookie tecnici necessari al funzionamento del sito. Per maggiori informazioni sui cookie utilizzati e come gestirli, consulta il banner dei cookie presente sul sito.'
+      preferences: 'Preferenze cookie',
+      content: 'Usiamo cookie tecnici per il funzionamento del sito e salviamo la tua scelta sulle statistiche nella memoria locale del browser. Puoi accettare, rifiutare o revocare il consenso dalle preferenze cookie.'
     },
     security: {
       title: 'Sicurezza dei Dati',
@@ -49,12 +50,12 @@ export const privacy = {
     },
     analytics: {
       title: 'Analisi dei Dati',
-      content: 'Utilizziamo PostHog per raccogliere dati anonimi sull\'utilizzo del sito al fine di migliorare l\'esperienza utente. Questi dati ci aiutano a capire come i visitatori interagiscono con il sito, quali sono le pagine più popolari e come possiamo ottimizzare i nostri contenuti. Rispettiamo la tua privacy e ti offriamo la possibilità di disattivare questa raccolta dati tramite il banner dei cookie.'
+      content: 'Con il tuo consenso usiamo PostHog e Umami Cloud per misurare l’uso del sito. Umami Cloud, fornito da Umami Software, Inc., riceve i dati delle visite alle pagine pubbliche, tra cui il percorso della pagina e informazioni sul browser e sul dispositivo. Il tracciamento Umami non usa cookie e non invia i parametri dell’indirizzo della pagina né la pagina di provenienza.',
     },
   },
   en: {
     title: 'Privacy Policy',
-    lastUpdate: 'Last updated: January 2024',
+    lastUpdate: 'Last updated: November 2026',
     intro: 'This Privacy Policy describes how personal data of users who visit the Sapienza Foiling Team website is managed.',
     controller: {
       title: 'Data Controller',
@@ -76,7 +77,7 @@ export const privacy = {
       title: 'Purpose of Processing',
       list: [
         'Enable proper website navigation and functionality',
-        'Anonymous statistical analysis of website usage',
+        'Statistical measurement of website usage, with your consent',
         'Respond to requests sent through the contact form',
         'Management of cookie preferences'
       ]
@@ -94,7 +95,8 @@ export const privacy = {
     },
     cookies: {
       title: 'Cookie Policy',
-      content: 'Our website uses technical cookies necessary for the site functionality. For more information about the cookies used and how to manage them, please refer to the cookie banner on the site.'
+      preferences: 'Cookie preferences',
+      content: 'We use essential cookies to run the site and save your analytics choice in your browser’s local storage. You can accept, reject or withdraw consent in the cookie preferences.'
     },
     security: {
       title: 'Data Security',
@@ -102,7 +104,7 @@ export const privacy = {
     },
     analytics: {
       title: 'Data Analytics',
-      content: 'We use PostHog to collect anonymous data about website usage to improve the user experience. This data helps us understand how visitors interact with the site, which pages are most popular, and how we can optimize our content. We respect your privacy and offer you the ability to opt-out of this data collection via the cookie banner.'
+      content: 'With your consent, we use PostHog and Umami Cloud to measure website usage. Umami Cloud, provided by Umami Software, Inc., receives public page visit data, including the page path and information about the browser and device. Umami tracking uses no cookies and does not send URL parameters or the referring page.',
     },
   }
 };
